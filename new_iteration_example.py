@@ -1,4 +1,4 @@
-#virtual dice game if you role six you win if not you lose a life
+# virtual dice game if you role six you win if not you lose a life
 
 from random import randint
 
@@ -10,10 +10,9 @@ while lives > 0:
         print("Congrats! You rolled a 6 you win")
         break
     else:
-        lives = lives - 1 #lose a life
+        lives = lives - 1  # lose a life
         print(f"You rolled a {dice_roll} You lose a life, lives left {lives}")
 
 else:
     print("You lose")
 
-        
