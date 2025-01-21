@@ -15,13 +15,13 @@ try:
     else:
         country = input(f"where are you from, {name}?")
         legal = False
-    elif age >= 18 and country != "USA":
-        legal = True
-    elif age >= 16 and country == "Luxembourg":
-        legal = True
-    else:
-        print("you are not allowed to drink")
-    if age > 120 or age < 5
+        if age >= 18 and country != "USA":
+            legal = True
+        elif age >= 16 and country == "Luxembourg":
+            legal = True
+        else:
+            print("you are not allowed to drink")
+    if age > 120 or age < 5:
         print("please do not lie to me")
     elif legal:
         print("You are allowed to drink")
